@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13680" started-at="2019-04-27T06:17:28Z" finished-at="2019-04-27T06:17:41Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.selbot.testcases.Erail@42d80b78]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="13680" started-at="2019-04-27T06:17:28Z" finished-at="2019-04-27T06:17:41Z">
+      <class name="com.selbot.testcases.Erail">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.selbot.testcases.Erail@42d80b78]" name="startReport" is-config="true" duration-ms="499" started-at="2019-04-27T06:17:27Z" finished-at="2019-04-27T06:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="fetchdata()[pri:0, instance:com.selbot.testcases.Erail@42d80b78]" name="fetchdata" is-config="true" duration-ms="0" started-at="2019-04-27T06:17:28Z" finished-at="2019-04-27T06:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchdata -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.selbot.testcases.Erail@42d80b78]" name="setUpClass" is-config="true" duration-ms="92" started-at="2019-04-27T06:17:28Z" finished-at="2019-04-27T06:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.selbot.testcases.Erail@42d80b78]" name="report" is-config="true" duration-ms="9" started-at="2019-04-27T06:17:28Z" finished-at="2019-04-27T06:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selbot.testcases.Erail@42d80b78]" name="beforeMethod" is-config="true" duration-ms="2882" started-at="2019-04-27T06:17:28Z" finished-at="2019-04-27T06:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="OpenLinks(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selbot.testcases.Erail@42d80b78]" name="OpenLinks" duration-ms="8117" started-at="2019-04-27T06:17:31Z" data-provider="fetchData" finished-at="2019-04-27T06:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://erail.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SBC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SHATABDI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLinks -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.selbot.testcases.Erail@42d80b78]" name="afterMethod" is-config="true" duration-ms="2116" started-at="2019-04-27T06:17:39Z" finished-at="2019-04-27T06:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.selbot.testcases.Erail@42d80b78]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2019-04-27T06:17:41Z" finished-at="2019-04-27T06:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.selbot.testcases.Erail@42d80b78]" name="stopReport" is-config="true" duration-ms="299" started-at="2019-04-27T06:17:41Z" finished-at="2019-04-27T06:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.selbot.testcases.Erail -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
